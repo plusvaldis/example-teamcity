@@ -59,7 +59,6 @@ object Build : BuildType({
                 doesNotContain("teamcity.build.branch", "master")
             }
             goals = "clean test"
-            userSettingsSelection = "settings.xml"
         }
     }
 
